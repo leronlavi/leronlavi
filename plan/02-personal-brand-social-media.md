@@ -9,10 +9,10 @@ You're not "marketing" — you're documenting work, which proves you can do it.
 
 **Profiles — same photo, name, headline, and link everywhere:**
 
-- **Headline formula:** `AI Engineer | I build AI agents & automations for [niche] | n8n · LLMs · RAG`
-- **Bio:** who you help → result → proof → call to action ("DM 'AUDIT' for a free AI audit")
+- **Headline formula:** `Automation & SaaS Developer | I build automations & custom business software for [niche] | n8n · AI · Next.js · Supabase`
+- **Bio:** who you help → result → proof → call to action ("DM 'AUDIT' for a free process audit")
 - **Link:** one link hub → website with case studies + booking link
-- **Banner:** your offer in one line + a small visual of a workflow/agent
+- **Banner:** your offer in one line + a screenshot of a system or workflow you built
 - **Featured section (LinkedIn):** demo video, best case study, booking link
 - **GitHub profile README:** see `../README.md` in this repo
 - **Website:** landing page, 3 case studies, services/pricing ("starting at"), booking calendar, newsletter signup
@@ -27,7 +27,7 @@ Don't be everywhere at once. Start with **LinkedIn (primary)** + **one video cha
 |---|---|---|---|
 | **LinkedIn** (primary) | Where business owners & agencies buy | Text posts, carousels (PDF), short demo videos | 4–5×/week |
 | **YouTube** | Trust + search traffic; long-term asset | 8–15 min build tutorials / client-style demos | 1×/week or bi-weekly |
-| **Shorts / Reels / TikTok** | Reach | 30–60s demo clips cut from YouTube ("watch my AI handle this lead in 10 seconds") | 3–5×/week (repurposed) |
+| **Shorts / Reels / TikTok** | Reach | 30–60s demo clips cut from YouTube ("from Excel chaos to one system in 60 seconds") | 3–5×/week (repurposed) |
 | **X (Twitter)** | AI builder community, peers, partners | Threads, quick tips, build logs | Daily (short) |
 | **Newsletter** (Beehiiv/Substack) | Own your audience | Weekly: 1 build + 1 tool + 1 lesson | Weekly |
 | **GitHub** | Proof of skill | Open-source templates, n8n workflows | With each project |
@@ -42,9 +42,9 @@ business owners — often the highest-converting channel for SMB services.
 
 Rotate between 5 pillars so you attract both clients and peers:
 
-1. **Demos (sell)** — "Here's an AI agent that answers a plumber's website leads at 2am and books the job." Show, don't tell.
+1. **Demos (sell)** — "Here's the system I built that replaced 6 spreadsheets for a construction company." Show, don't tell.
 2. **Case studies & results (prove)** — before/after, numbers, client quotes.
-3. **How-to / tutorials (teach)** — n8n workflows, prompt patterns, agent design, RAG. Give away the *what*; clients pay for the *done-for-you*.
+3. **How-to / tutorials (teach)** — n8n workflows, building internal apps, Supabase tips, using AI in automations. Give away the *what*; clients pay for the *done-for-you*.
 4. **Opinions & insights (differentiate)** — "Why most AI chatbots fail small businesses", tool comparisons, cost breakdowns.
 5. **Behind the scenes (connect)** — freelance journey, wins, mistakes, revenue milestones, how you work.
 
@@ -59,13 +59,13 @@ Mix: ~40% teach, 25% demo, 15% proof, 10% opinion, 10% personal. Every post ends
 - **Carousels:** "7 automations every dental clinic should have" (PDF slides, 8–10 pages)
 - **Screen-recorded demo** with face cam, 30–90s, captions burned in
 - **"I rebuilt X with AI" teardown**
-- **Lead magnet posts:** "Comment 'AGENT' and I'll send you the n8n template" → collects leads
-- **Cost breakdowns:** "This lead agent costs $0.02 per conversation to run. Here's the math."
+- **Lead magnet posts:** "Comment 'SYSTEM' and I'll send you the n8n template" → collects leads
+- **Cost breakdowns:** "Custom system vs. 5 SaaS subscriptions: the real 3-year cost. Here's the math."
 
 Hook templates:
-- "Most [niche] businesses take [X] hours to answer a new lead. I built a fix in 3 days:"
+- "Most [niche] businesses still run their business on Excel and WhatsApp. Here's what it costs them: I built a fix in 3 days:"
 - "I replaced a 4-hour weekly task with a 12-node n8n workflow. Here's the whole thing:"
-- "Stop building chatbots. Build this instead:"
+- "Stop paying for 7 tools that don't talk to each other. Do this instead:"
 - "A client asked me for [X]. I told them no. Here's why:"
 
 ---
@@ -87,10 +87,10 @@ Hook templates:
 ## 6. Turning attention into clients
 
 - **Lead magnets:** n8n templates, "AI readiness checklist for [niche]", prompt packs → email capture
-- **Free AI audit offer** in bio and pinned post → books discovery calls
+- **Free process audit offer** in bio and pinned post → books discovery calls
 - **DM workflow:** someone engages 2–3 times → send a helpful (not salesy) message → offer audit
 - **Social proof loop:** every client win → post (with permission) → more inbound
-- **Collaborations:** podcast guesting, co-hosted webinars/lives with agencies or tool vendors (n8n, CRM and AI-tool partners)
+- **Collaborations:** podcast guesting, co-hosted webinars/lives with agencies or tool vendors (n8n, Supabase, CRM and accounting-tool partners)
 
 ---
 
@@ -113,7 +113,7 @@ Focus on **qualified conversations**, not vanity followers. 2,000 of the right f
 | Week | Posts |
 |---|---|
 | 1 | Announcement ("I'm going all-in on building AI agents for [niche]"), your story, a tool-stack post, first mini-demo |
-| 2 | Inbox/lead agent demo video, carousel "5 automations your business is missing", n8n tip, opinion post |
+| 2 | Private SaaS demo walkthrough, carousel "5 automations your business is missing", n8n tip, opinion post |
 | 3 | Build-in-public: content agent (file 03) — "I built an AI that manages my content", tutorial, cost breakdown |
 | 4 | Lead-magnet post (template giveaway), first client/beta result, monthly lessons recap, YouTube #1 |
 
