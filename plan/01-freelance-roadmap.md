@@ -12,16 +12,16 @@ Use this formula:
 
 > I help **[specific business type]** **[get a measurable result]** with **[AI systems you build]**.
 
-Examples that fit the stack you already use (n8n, voice agents, LLM APIs):
+Examples that fit the stack you already use (n8n, LLM APIs, AI agents):
 
 | Niche | Offer | Why it sells |
 |---|---|---|
-| Home services / construction / real estate | AI voice receptionist that answers calls 24/7, qualifies leads, books estimates | Missed calls = lost jobs. ROI is obvious. |
-| Clinics, vets, dental | Voice + SMS booking agent, reminders, FAQ | High call volume, staff shortage |
+| Home services / construction / real estate | AI lead agent: answers web/WhatsApp/email inquiries instantly, qualifies, books estimates, follows up | Slow replies = lost jobs. ROI is obvious. |
+| Clinics, vets, dental | Chat/WhatsApp booking agent, reminders, FAQ, review requests | High message volume, staff shortage |
 | Agencies & small teams | n8n + LLM automations (lead intake, CRM, reporting) | They feel the pain of manual ops daily |
 | B2B SaaS | RAG support bot / internal knowledge agent | Support cost reduction |
 
-**Recommendation:** start with **one** primary niche (e.g. *AI voice agents + automation for home-service
+**Recommendation:** start with **one** primary niche (e.g. *AI lead & inbox automation for home-service
 businesses*) and one secondary "generalist" offer (custom n8n/LLM automations). You can widen later;
 you can't be memorable while being generic.
 
@@ -40,7 +40,7 @@ You don't need a PhD. You need to ship reliable LLM systems. Learn in this order
 - Automation platforms: **n8n** (self-hosted + cloud), Make/Zapier familiarity
 - RAG: chunking, embeddings, vector DBs (pgvector, Pinecone, Qdrant), hybrid search, reranking
 - Agents: tool loops, MCP servers, memory, guardrails, human-in-the-loop approval
-- Voice: Vapi / Retell / ElevenLabs, telephony (Twilio), latency tuning, call transcripts → CRM
+- Messaging channels: WhatsApp Business API, email, website chat widgets, Slack/Telegram bots
 
 **Production (what separates you from hobbyists)**
 - Evals: test sets, LLM-as-judge, regression testing for prompts
@@ -59,15 +59,15 @@ You don't need a PhD. You need to ship reliable LLM systems. Learn in this order
 
 Clients don't read CVs; they watch demos. Build 3 projects that map directly to what you sell:
 
-1. **AI Voice Receptionist demo** — calls a real number, answers FAQs, qualifies the caller,
-   books into Google Calendar, logs to a CRM/Sheet, sends SMS/email summary.
-   Show: 60-second screen+audio recording, architecture diagram, results metrics.
-2. **Lead-to-CRM automation (n8n + LLM)** — web form/email/WhatsApp inbound → LLM classifies & enriches →
-   CRM → personalized reply draft → Slack/Telegram alert.
+1. **AI Inbox / Lead Agent demo** — answers website chat, WhatsApp and email, handles FAQs, qualifies the
+   lead, books into Google Calendar, logs to a CRM/Sheet, hands off to a human when needed.
+   Show: 60-second screen recording, architecture diagram, results metrics.
+2. **Back-office automation (n8n + LLM)** — invoices/quotes/documents arrive by email → LLM extracts the data →
+   accounting/CRM/Sheets updated → exceptions sent to Slack/Telegram for approval → weekly summary report.
 3. **RAG knowledge agent** — chat over a company's docs/website with citations and evals.
 
 For each project publish a **case study** (GitHub README + LinkedIn post + short video):
-- Problem → Solution → Architecture → Stack → Results (time saved, calls answered, cost per run) → Demo link
+- Problem → Solution → Architecture → Stack → Results (time saved, response time, leads handled, cost per run) → Demo link
 
 Once you have real clients, replace demos with real case studies (with permission) and testimonials.
 
@@ -80,14 +80,14 @@ Sell **packages**, not hours. Productized offers are easier to sell and to deliv
 | Offer | What's included | Price range (starting point) |
 |---|---|---|
 | **AI Audit** (entry offer) | 60–90 min call + written report: top 5 automation opportunities with ROI estimates | $300–$1,000 (credit toward a build) |
-| **Starter Build** | One automation or one voice agent, 2–3 weeks, 1 integration set | $2,500–$6,000 |
-| **Pro Build** | Multi-agent system / RAG / voice + CRM + reporting | $7,500–$25,000 |
+| **Starter Build** | One automation or one AI agent, 2–3 weeks, 1 integration set | $2,500–$6,000 |
+| **Pro Build** | Multi-agent system / RAG / agent + CRM + reporting | $7,500–$25,000 |
 | **Care Plan (retainer)** | Monitoring, prompt tuning, fixes, monthly report, small changes | $500–$3,000 / month |
 | **Hourly (only for consulting)** | Advisory calls | $100–$200 / hour |
 
 Notes:
 - Always attach a retainer to builds — AI systems need ongoing tuning. Retainers are how you reach stable income.
-- Pass usage costs (LLM, telephony, hosting) through at cost or with a small margin, billed separately.
+- Pass usage costs (LLM, messaging APIs, hosting) through at cost or with a small margin, billed separately.
 - Raise prices every 3 clients until you start losing ~30% of proposals.
 
 ---
@@ -100,13 +100,13 @@ Use several channels in parallel; measure which brings paying clients.
    that do X for Y — do you know anyone who struggles with Z?"
 2. **Content (long-term engine):** LinkedIn + YouTube/short video (see file 02).
 3. **Direct outreach:** 10–20 personalized messages/day to your niche list. Lead with a free
-   2-minute **Loom audit** of their business ("I called your office after hours and nobody answered —
-   here's a demo of an agent that would have booked that job").
+   2-minute **Loom audit** of their business ("I sent an inquiry through your website and got a reply 2 days later —
+   here's a demo of an agent that would have answered in 10 seconds and booked the job").
 4. **Platforms:** Upwork (AI/automation category), Contra, Toptal (later), Fiverr Pro for productized gigs.
    Use them for early reviews, not as your only source.
 5. **Partnerships:** web agencies, marketing agencies, CRM consultants, IT MSPs — they have clients
    asking for AI and no one to build it. Offer white-label or referral fees (10–20%).
-6. **Communities:** n8n community, Vapi/voice AI Discords, local business groups, meetups. Help first, sell second.
+6. **Communities:** n8n community, AI-agent builder Discords/Reddit, local business groups, meetups. Help first, sell second.
 
 ---
 
