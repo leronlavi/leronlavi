@@ -1,14 +1,14 @@
-# Hi, I'm Liron 👋 — Automation & SaaS Developer
+# Hi, I'm Liron 👋 — AI Solutions for Companies
 
-**I build business automations and private SaaS — custom systems built around how your business actually works —
-for [your niche] companies.**
+**I help companies save time and grow with AI: automations, custom AI-powered systems and AI agents,
+built around how your business actually works.**
 
 <!-- Edit the bracketed parts, then this README becomes your GitHub profile page. -->
 
 ### What I build
-- 🧩 **Private SaaS / custom systems** — internal management systems, client portals, dashboards, built for one business
-- ⚙️ **Business automations** — n8n workflows connecting CRM, accounting, email, WhatsApp and Sheets
-- 🤖 **AI inside your processes** — document & invoice data extraction, summaries, smart routing, with human approval
+- 🧩 **AI-powered private SaaS** — internal management systems, client portals, dashboards, built for one business
+- ⚙️ **AI automations** — n8n workflows connecting CRM, accounting, email, WhatsApp and Sheets
+- 🤖 **AI agents & assistants** — knowledge assistants over company documents, document & invoice processing, AI reports, with human approval
 - 📊 **From Excel to a real system** — data migration, roles & permissions, reports the owner actually reads
 
 ### Stack
@@ -22,7 +22,7 @@ for [your niche] companies.**
 | [AI Content Agent](plan/03-content-agent.md) | The system that plans, writes and analyzes my own content |
 
 ### Work with me
-- 🗓️ Free 30-min process audit: [booking link]
+- 🗓️ Free 30-min AI opportunity audit: [booking link]
 - 💼 LinkedIn: [link] · ▶️ YouTube: [link] · ✉️ [email]
 
 ---

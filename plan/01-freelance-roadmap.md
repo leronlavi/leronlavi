@@ -1,20 +1,27 @@
-# 01 — Freelancer Roadmap: Automations & Private SaaS (12 months)
+# 01 — Freelancer Roadmap: AI Solutions for Companies (12 months)
 
-Goal: go from "I can build systems" to a freelance developer known for **business automations and
-custom (private) SaaS** in a clear niche, with a portfolio that sells for you, a steady lead flow, and $10k+/month in recurring revenue.
+Goal: become the go-to freelancer who builds **AI solutions for companies** (AI automations,
+AI-powered private SaaS, and AI agents) in a clear niche, with a portfolio that sells for you, a steady lead flow, and $10k+/month in recurring revenue.
 
 ---
 
 ## 0. Pick a positioning (week 1)
 
-You build two things: **automations** (n8n + AI connecting the tools a business already uses) and
-**private SaaS** (custom web apps built for one business: internal systems, client portals, dashboards).
-That combination is your edge: most automation freelancers can't build an app, and most developers
-don't think in business processes. Sell it as one result.
+What you sell: **AI solutions for companies**. Three building blocks you combine per client:
+
+1. **AI automations**: n8n + AI connecting the tools a company already uses (email, CRM, accounting, WhatsApp, Sheets)
+2. **AI-powered private SaaS**: custom web apps built for one company (internal systems, client portals, dashboards) with AI built in
+3. **AI agents & assistants**: company knowledge assistants (chat over their documents), document/invoice processing, reporting agents
+
+That combination is your edge: most "AI consultants" can't build software, most developers don't
+think in business processes, and most automation freelancers stop at Zapier. You deliver the whole solution.
+
+Companies don't buy "AI"; they buy **saved hours, fewer errors, faster answers and more sales**. Always
+sell the result, and name AI as how you get there.
 
 Use this formula:
 
-> I help **[specific business type]** **[get a measurable result]** by building **custom software and automations** around how they actually work.
+> I help **[specific business type]** **[get a measurable result]** with **AI solutions** (automations, custom systems and agents) built around how they actually work.
 
 Examples:
 
@@ -22,13 +29,14 @@ Examples:
 |---|---|---|
 | Construction / renovation / real estate developers | Private project-management system: projects, suppliers, quotes, budgets, client portal + automated reports & reminders | Run on Excel + WhatsApp today; money leaks in every project |
 | Service businesses (clinics, agencies, contractors) | Custom CRM / booking / job-management app + automated follow-ups, invoices, reviews | Off-the-shelf tools don't fit; staff waste hours on admin |
-| Small–mid companies with "Excel hell" | Replace spreadsheets with an internal web app + dashboards + data entry automation | Errors, no single source of truth, owner has no visibility |
+| Small–mid companies with "Excel hell" | Replace spreadsheets with an internal web app + AI data entry + AI-written reports | Errors, no single source of truth, owner has no visibility |
 | Businesses already on SaaS tools | n8n + AI glue between CRM, accounting, email, WhatsApp, Sheets | Quick wins, low risk, a good entry point to a bigger build |
+| Companies with lots of documents / know-how | AI knowledge assistant over their procedures, contracts, specs; AI document processing | New staff onboarding, answers in seconds instead of asking the senior guy |
 
 **Recommendation:** pick **one** industry you understand (e.g. *construction & real-estate
 companies*) as your main niche, and use automation projects as the low-risk entry offer that leads to
-the bigger private-SaaS build. Being "the person who builds systems for construction companies" is far
-more memorable than "full-stack + automation developer".
+the bigger private-SaaS build. Being "the person who builds AI solutions for construction companies" is far
+more memorable than "AI developer".
 
 Deliverable for week 1: a one-sentence positioning, a 3-sentence bio, and a list of 50 target businesses.
 
@@ -42,8 +50,12 @@ Learn in this order, always by building:
 - **n8n** (self-hosted + cloud), webhooks, REST APIs, JSON, error workflows; Make/Zapier familiarity
 - Integrations businesses use: Google Workspace, Microsoft 365, CRMs (HubSpot, Monday, Pipedrive),
   accounting/invoicing tools, WhatsApp Business API, email, Slack/Telegram
-- AI inside automations: LLM APIs (Claude, OpenAI), structured output, document/invoice data extraction,
-  classification, summaries, agents with human approval
+**AI (your core)**
+- LLM APIs (Claude, OpenAI): prompting, structured output, tool use, cost control, choosing the right model
+- Document AI: invoice/contract/form data extraction, OCR, summaries, classification
+- RAG knowledge assistants: embeddings, pgvector, citations, keeping answers grounded in company data
+- AI agents with human approval, MCP, evals (testing that the AI gives correct answers before go-live)
+- AI security & privacy for companies: data stays where it should, no training on client data, access control
 
 **Private SaaS / custom apps**
 - TypeScript, **Next.js** (or React + a backend), Tailwind + a component library (shadcn/ui)
@@ -69,14 +81,15 @@ Learn in this order, always by building:
 
 ## 2. Portfolio — 3 flagship projects (weeks 2–8)
 
-Clients don't read CVs; they watch demos. Build 3 projects that map directly to what you sell:
+Clients don't read CVs; they watch demos. Build 3–4 projects that map directly to what you sell:
 
 1. **Private SaaS demo for your niche** — e.g. a construction project-management app: projects, tasks,
    suppliers, quotes vs. actual budget, document storage, client portal, owner dashboard.
    Show: 2-minute walkthrough video, screenshots, data model diagram.
 2. **Back-office automation (n8n + AI)** — invoices/quotes/documents arrive by email → AI extracts the data →
    accounting/CRM/Sheets updated → exceptions sent to Slack/Telegram/WhatsApp for approval → weekly summary report.
-3. **Automation + app working together** — e.g. leads from website/WhatsApp → n8n qualifies and creates
+3. **AI knowledge assistant** — chat over a company's procedures/contracts/specs with citations, inside their system or Slack/Teams.
+4. **Automation + app working together** (optional) — e.g. leads from website/WhatsApp → n8n qualifies and creates
    a record in the custom app → automatic follow-ups → dashboard shows pipeline & conversion.
 
 For each project publish a **case study** (GitHub README + LinkedIn post + short video):
@@ -95,11 +108,12 @@ Sell **packages**, not hours. Productized offers are easier to sell and to deliv
 
 | Offer | What's included | Price range (starting point) |
 |---|---|---|
-| **Process Audit** (entry offer) | 60–90 min session + written report: how they work today, top 5 automation/software opportunities with ROI estimates | $300–$1,000 (credit toward a build) |
-| **Automation Package** | 1–3 automations (n8n + AI), 1–3 weeks | $1,500–$6,000 |
-| **Private SaaS MVP** | Custom web app with core modules, users & roles, dashboard, 4–8 weeks | $8,000–$30,000 |
+| **AI Opportunity Audit** (entry offer) | 60–90 min session + written report: how they work today, top 5 AI/automation opportunities with ROI estimates | $300–$1,000 (credit toward a build) |
+| **AI Automation Package** | 1–3 AI automations (n8n + AI), 1–3 weeks | $1,500–$6,000 |
+| **AI Assistant / Agent** | Knowledge assistant or document-processing agent on company data, 2–5 weeks | $4,000–$15,000 |
+| **Private SaaS MVP** | Custom AI-powered web app with core modules, users & roles, dashboard, 4–8 weeks | $8,000–$30,000 |
 | **System Build** | Custom app + automations + integrations + data migration | $20,000–$60,000+ |
-| **Care Plan (retainer)** | Hosting, backups, monitoring, fixes, small features, monthly report | $300–$3,000 / month |
+| **Care Plan (retainer)** | Hosting, backups, monitoring, AI quality checks, fixes, small features, monthly report | $300–$3,000 / month |
 | **Hourly (only for consulting / extra features)** | Advisory, change requests outside scope | $80–$200 / hour |
 
 Notes:
@@ -116,8 +130,8 @@ Notes:
 
 Use several channels in parallel; measure which brings paying clients.
 
-1. **Warm network (fastest first client):** message 30 people you know: "I now build custom systems
-   and automations for [business type] — do you know anyone who struggles with Z?"
+1. **Warm network (fastest first client):** message 30 people you know: "I now build AI solutions
+   for companies like [business type] — do you know anyone who struggles with Z?"
 2. **Content (long-term engine):** LinkedIn + YouTube/short video (see file 02).
 3. **Direct outreach:** 10–20 personalized messages/day to your niche list. Lead with a free
    2-minute **Loom audit** of their business ("I noticed you manage quotes in Excel and WhatsApp —

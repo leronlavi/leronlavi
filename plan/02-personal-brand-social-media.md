@@ -9,8 +9,8 @@ You're not "marketing" — you're documenting work, which proves you can do it.
 
 **Profiles — same photo, name, headline, and link everywhere:**
 
-- **Headline formula:** `Automation & SaaS Developer | I build automations & custom business software for [niche] | n8n · AI · Next.js · Supabase`
-- **Bio:** who you help → result → proof → call to action ("DM 'AUDIT' for a free process audit")
+- **Headline formula:** `AI Solutions for Companies | AI automations, custom systems & AI agents for [niche] | n8n · LLMs · Next.js · Supabase`
+- **Bio:** who you help → result → proof → call to action ("DM 'AUDIT' for a free AI opportunity audit")
 - **Link:** one link hub → website with case studies + booking link
 - **Banner:** your offer in one line + a screenshot of a system or workflow you built
 - **Featured section (LinkedIn):** demo video, best case study, booking link
@@ -87,7 +87,7 @@ Hook templates:
 ## 6. Turning attention into clients
 
 - **Lead magnets:** n8n templates, "AI readiness checklist for [niche]", prompt packs → email capture
-- **Free process audit offer** in bio and pinned post → books discovery calls
+- **Free AI opportunity audit offer** in bio and pinned post → books discovery calls
 - **DM workflow:** someone engages 2–3 times → send a helpful (not salesy) message → offer audit
 - **Social proof loop:** every client win → post (with permission) → more inbound
 - **Collaborations:** podcast guesting, co-hosted webinars/lives with agencies or tool vendors (n8n, Supabase, CRM and accounting-tool partners)
